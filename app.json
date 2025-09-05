@@ -11,38 +11,73 @@
   "success_url": "",
   "env": {
     "API_ID": {
-      "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
+      "description": "Your API ID",
       "value": "22537641",
       "required": true
     },
     "API_HASH": {
-      "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
+      "description": "Your API Hash",
       "value": "6c1eee32be959812f0598919209a2105",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
+      "description": "Your Bot Token",
       "value": "",
       "required": true
     },
-    "OWNER": {
-      "description": "𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙄𝘿",
-      "value": "6748247898",
+    "CHANNEL_ID": {
+      "description": "Your Channel Username or ID",
+      "value": "@mmbvcdsjn",
       "required": true
     },
-    "CREDIT": {
-      "description": "𝙀𝙣𝙩𝙚𝙧 𝘾𝙧𝙚𝙙𝙞𝙩 𝙉𝙖𝙢𝙚 𝙞𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 6-8 𝙡𝙚𝙩𝙩𝙚𝙧𝙨",
-      "value": "SARKARI",
+    "LOG_CHANNEL": {
+      "description": "Log Channel ID (as integer, example: -1001234567890)",
+      "value": "-1002448263019",
       "required": true
     },
-    "MONGO_URL": {
-      "description": "Your MongoDB connection string",
-      "value": "http://krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "DATABASE_URL": {
+      "description": "MongoDB connection string",
+      "value": "",
       "required": true
     },
-    "MONGO_DB": {
-      "description": "Your MongoDB database name (if needed)",
+    "DB_NAME": {
+      "description": "MongoDB database name",
       "value": "wadi",
+      "required": true
+    },
+    "COLLECTION_NAME": {
+      "description": "MongoDB collection name",
+      "value": "tests",
+      "required": true
+    },
+    "ADMIN_ID": {
+      "description": "Bot Admin User ID",
+      "value": "5323553965",
+      "required": true
+    },
+    "PRIMARY_URL": {
+      "description": "Primary Flask URL",
+      "value": "http://localhost:5000",
+      "required": false
+    },
+    "SECONDARY_URL": {
+      "description": "Secondary Flask URL (optional)",
+      "value": "",
+      "required": false
+    },
+    "BACKUP_URL": {
+      "description": "Backup Flask URL (optional)",
+      "value": "",
+      "required": false
+    },
+    "USE_FLASK_APP": {
+      "description": "Set to True to use Flask app",
+      "value": "True",
+      "required": false
+    },
+    "FORCE_DIRECT_SEND": {
+      "description": "Set to True to force direct send",
+      "value": "False",
       "required": false
     }
   },
