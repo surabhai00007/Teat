@@ -14,6 +14,10 @@
     "BOT_TOKEN": {
       "description": "Your Telegram Bot Token",
       "required": true
+    },
+    "ADMIN_ID": {
+      "description": "Owner/Admin Telegram User ID (as integer, e.g. 123456789)",
+      "required": true
     }
   },
   "buildpacks": [
