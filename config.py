@@ -5,17 +5,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot Configuration
-API_ID = os.environ.get("API_ID", "2756786")
-API_HASH = os.environ.get("API_HASH", "b1760d4b5ef697bb8da4ac4e261c49")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8475861992:AAHIgZhtFjsRUxU5DWpVlry3PSGXAerUEoc")
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "@ganesh_info")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002577131155"))
+API_ID = os.environ.get("API_ID", "22537641")
+API_HASH = os.environ.get("API_HASH", "6c1eee32be959812f0598919209a2105")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6816792403:AAGO5HNEWLtM9cdV0zwo_vTfviGYGnOWAqI")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "@mmbvcdsjn")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002448263019"))
 
 # MongoDB Configuration
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "wadi")
 COLLECTION_NAME = os.environ.get("COLLECTION_NAME", "tests")
-ADMIN_ID = os.environ.get("ADMIN_ID", "6350117077")
+ADMIN_ID = os.environ.get("ADMIN_ID", "5323553965")
 
 # Flask Configuration
 FLASK_URLS = [
@@ -52,4 +52,5 @@ FORCE_SUB_MSG = """
 ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴊᴏɪɴ!
 
 𝘼𝙛𝙩𝙚𝙧 𝙟𝙤𝙞𝙣𝙞𝙣𝙜, 𝙘𝙡𝙞𝙘𝙠 '𝙍𝙚𝙛𝙧𝙚𝙨𝙝' 𝙗𝙪𝙩𝙩𝙤𝙣.
+
 """ 
