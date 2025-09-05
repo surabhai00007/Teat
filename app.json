@@ -37,7 +37,7 @@
     },
     "DATABASE_URL": {
       "description": "MongoDB connection string",
-      "value": "",
+      "value": "http://krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
     "DB_NAME": {
