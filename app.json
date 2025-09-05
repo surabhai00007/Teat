@@ -34,6 +34,16 @@
       "description": "𝙀𝙣𝙩𝙚𝙧 𝘾𝙧𝙚𝙙𝙞𝙩 𝙉𝙖𝙢𝙚 𝙞𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 6-8 𝙡𝙚𝙩𝙩𝙚𝙧𝙨",
       "value": "SARKARI",
       "required": true
+    },
+    "MONGO_URL": {
+      "description": "Your MongoDB connection string",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB": {
+      "description": "Your MongoDB database name (if needed)",
+      "value": "",
+      "required": false
     }
   },
   "formation": {
