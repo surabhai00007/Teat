@@ -37,12 +37,12 @@
     },
     "MONGO_URL": {
       "description": "Your MongoDB connection string",
-      "value": "",
+      "value": "http://krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       "required": true
     },
     "MONGO_DB": {
       "description": "Your MongoDB database name (if needed)",
-      "value": "",
+      "value": "wadi",
       "required": false
     }
   },
