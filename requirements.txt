@@ -1,0 +1,10 @@
+pyrogram
+tgcrypto
+aiohttp
+beautifulsoup4
+motor
+python-dotenv
+apscheduler
+aiofiles
+flask
+gunicorn 
